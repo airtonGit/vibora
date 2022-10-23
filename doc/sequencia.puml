@@ -1,0 +1,9 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+main.go -> root.go: Execute()
+root.go -> rootCmd: Execute()
+
+@enduml
