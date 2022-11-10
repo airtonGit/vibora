@@ -3,7 +3,16 @@
 
 autonumber
 
-main.go -> root.go: Execute()
 root.go -> rootCmd: Execute()
 
+rootCmd -> cmdTab
+
+@enduml
+
+@startuml
+[rootCmd]
+[webCmd]
+
+[rootCmd] -> [webCmd]
+[tabTemplate]
 @enduml
